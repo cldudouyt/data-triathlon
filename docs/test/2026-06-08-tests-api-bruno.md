@@ -1,7 +1,7 @@
-# Plan de tests API — Bruno (backend-v2)
+# Plan de tests API — Bruno (backend)
 
 > **Date** : 2026-06-08
-> **Cible** : `backend-v2/` (API versionnée sous `/api/v1`)
+> **Cible** : `backend/` (API versionnée sous `/api/v1`)
 > **Outil** : [Bruno](https://www.usebruno.com/) (équivalent Postman)
 > **Statut** : v2 codée, non encore déployée — tests à exécuter en local.
 
@@ -10,7 +10,7 @@
 ## Configuration de base
 
 - **Base URL locale** : `http://localhost:8001/api/v1`
-- **Lancement du serveur** (depuis `backend-v2/`, venv activé) :
+- **Lancement du serveur** (depuis `backend/`, venv activé) :
   ```bash
   uvicorn app.main:app --reload --port 8001
   ```
